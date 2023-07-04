@@ -1,0 +1,85 @@
+body{
+   background-image: url(../images/bg.jpg);
+   background-size: 100%;
+   color: white;
+}
+
+.top{
+    min-height: 80px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.main {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo{
+    max-height: 75px;
+    margin-top: 5px;
+}
+
+.right{
+    float:right;                       /* Обтекание по правому краю */
+}
+.right li{
+    display: inline;                   /* Отображение в линию */
+    padding: 20px 10px;                /* Внутренние отступы. Вертикальные 20px, Горизонтальные 10px */
+}
+
+.center{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gallery li {
+   width: 20%;                       /* Ширина элемента: 20% экрана */
+   display: inline-block;            /* Отображение блоков в линию */
+   margin-right: 5px;
+}
+
+.gallery img{
+   border: 3px solid white;          /* Белая рамка вокруг картинки */
+}
+
+.scale {
+transition: 1s; /* Время эффекта */
+}
+
+.scale:hover {
+transform: scale(1.5); /* Увеличиваем масштаб */
+}
+
+.container .row{
+   background-color: white;
+   color: black;
+   margin-bottom: 10px;
+}
+
+.container div{
+    padding: 10px;
+    display: inline-table;
+    width: 48%;
+}
+
+button{
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 21px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+   background-color: black !important;
+}
+footer{
+   margin-top: 10px;
+}
+
+
