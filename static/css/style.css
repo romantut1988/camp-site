@@ -21,11 +21,14 @@ body{
 }
 
 .right{
-    float:right;                       /* Обтекание по правому краю */
+    float:right;
+}
+.active{
+   background-color: black !important;
 }
 .right li{
-    display: inline;                   /* Отображение в линию */
-    padding: 20px 10px;                /* Внутренние отступы. Вертикальные 20px, Горизонтальные 10px */
+    display: inline;
+    padding: 20px 10px;
 }
 
 .center{
@@ -35,27 +38,27 @@ body{
 }
 
 .gallery li {
-   width: 20%;                       /* Ширина элемента: 20% экрана */
-   display: inline-block;            /* Отображение блоков в линию */
+   width: 20%;
+   display: inline-block;
    margin-right: 5px;
 }
 
 .gallery img{
-   border: 3px solid white;          /* Белая рамка вокруг картинки */
+   border: 3px solid white;
 }
 
 .scale {
-transition: 1s; /* Время эффекта */
+transition: 1s;
 }
 
 .scale:hover {
-transform: scale(1.5); /* Увеличиваем масштаб */
+transform: scale(1.5);
 }
 
-.container .row{
-   background-color: white;
-   color: black;
-   margin-bottom: 10px;
+.container-fluid .row{
+    color: white;
+    margin: 0 auto;
+    width: 70%;
 }
 
 .container div{
@@ -75,11 +78,7 @@ button a{
     text-decoration: none;
     color: white;
 }
-.active{
-   background-color: black !important;
+footer {
+    margin-top: 10px;
 }
-footer{
-   margin-top: 10px;
-}
-
 
